@@ -36,15 +36,18 @@ a:hover , button:hover{
     color: #fff;
 }
 
-h1, h2{
-    color: #eee;
+h1, h2, strong{
+    color: #fff;
     margin: 0;
     text-align: center;
+}
+span{
+    color: #fa8deb;
+    font-size: inherit;
 }
 h1{
     font-size: 3em;
     line-height: 0.9em;
-    color: #fa8deb;
 }
 h2{
     font-size: 2em;
@@ -83,7 +86,7 @@ section{
 .sec-flex{
     display: flex;
     flex-flow: row wrap;
-    gap: 10px;
+    gap: 20px;
 }
 #proyectos{
     justify-content: center;
@@ -115,8 +118,10 @@ section{
     --fill: 100%
 }
 .card img{
-    height: 260px;
     border-radius: 10px 10px 0 0;
+    min-width: 330px;
+    max-width: 420px;
+    height: 220px;
 }
 .card div{
     padding: 0 1.2em;
